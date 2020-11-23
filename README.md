@@ -59,3 +59,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Steps to run on Local Host
+Ajackus : Assignment
+
+Steps to run on Local Host
+1. Open .env file
+2. Make two changes (*ignore if already)
+
+    Line 13  DB_DATABASE=ajackus
+    Line 18  CACHE_DRIVER=database
+    
+3. Run Xamp controller start Apache and MySQL
+4. click on MySQL Admin
+5. Create Database name = ajackus
+6. Run cmd php artisan migrate
+7. Run cmd php artisan serve
+
+Thanks 
+    
